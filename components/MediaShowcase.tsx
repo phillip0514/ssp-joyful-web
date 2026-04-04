@@ -19,7 +19,6 @@ export function MediaShowcase({ images }: Props) {
           相簿
         </h2>
         
-
         {images.length === 0 ? (
           <p className="mt-6 rounded-lg border border-dashed border-rose-200/70 bg-[#fffafd]/80 px-4 py-6 text-center text-base text-[#8a8299] sm:text-lg">
             暫未有相片。

@@ -13,6 +13,7 @@ const WHATSAPP_DISPLAY = "9427 3977";
 const PHONE_TEL = "+85231119771";
 const PHONE_DISPLAY = "3111 9771";
 const LICENSE = "63253";
+const PH_LICENSE = "MWOHK-2024-385-134"; 
 const MAP_EMBED =
   "https://maps.google.com/maps?q=%E5%85%83%E6%9C%97%E5%90%88%E7%9B%8A%E5%BB%A3%E5%A0%B4&t=&z=17&ie=UTF8&iwloc=&output=embed";
 
@@ -69,9 +70,10 @@ export default async function Home() {
                 致電 {PHONE_DISPLAY}
               </a>
             </div>
-            <p className="mt-8 text-base text-[#8a8299] sm:text-lg">
-              勞工處職業介紹所牌照：{LICENSE}
-            </p>
+            <div className="mt-8 flex flex-col gap-1 text-base text-[#8a8299] sm:text-lg">
+            <p>勞工處職業介紹所牌照：{LICENSE}</p>
+            <p>菲律賓領事館牌照號碼：{PH_LICENSE}</p>
+            </div>
           </div>
         </section>
 
@@ -137,9 +139,10 @@ export default async function Home() {
                 <span className="text-[#8a8299]">Hop Yick Plaza, Yuen Long, Hong Kong</span>
               </address>
               <div className="mt-8 flex flex-col items-center gap-4 text-lg sm:text-xl">
-                <p className="font-medium text-[#2d2640]">
-                  勞工處職業介紹所牌照：{LICENSE}
-                </p>
+              <div className="flex flex-col gap-1 font-medium text-[#2d2640]">
+  <p>勞工處職業介紹所牌照：{LICENSE}</p>
+  <p>菲律賓領事館牌照號碼：{PH_LICENSE}</p>
+</div>
                 <a
                   href={`tel:${PHONE_TEL}`}
                   className="font-semibold text-sky-700 hover:underline"
@@ -253,7 +256,10 @@ export default async function Home() {
 
       <footer className="border-t border-sky-100/60 bg-gradient-to-r from-rose-50/50 via-[#fffafd] to-sky-50/50 py-10 text-center text-base text-[#8a8299] sm:text-lg">
         <p>© {new Date().getFullYear()} 永諾意僱傭中心 · 香港</p>
-        <p className="mt-1">勞工處職業介紹所牌照：{LICENSE}</p>
+        <div className="mt-1 flex flex-col gap-0.5">
+  <p>勞工處職業介紹所牌照：{LICENSE}</p>
+  <p>菲律賓領事館牌照號碼：{PH_LICENSE}</p>
+</div>
       </footer>
 
       {/* Floating WhatsApp */}
