@@ -11,7 +11,10 @@ export const metadata: Metadata = {
   title: "永諾意僱傭中心 | 香港菲傭印傭 · 本地海外女傭 · 文件代辦",
   description:
     "永諾意僱傭中心—優質菲傭及印傭、本地完約與海外女傭、文件代辦。勞工處職業介紹所牌照 63253。元朗合益廣場。",
-};
+    verification: {
+      google: "6l5ihA4yyJHgZYSwdwjllh-kxh8MCShvqThqcOE6v-g",
+    },
+  };
 
 export default function RootLayout({
   children,
