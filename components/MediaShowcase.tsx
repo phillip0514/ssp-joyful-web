@@ -18,12 +18,7 @@ export function MediaShowcase({ images }: Props) {
         >
           相簿
         </h2>
-        <p className="mt-2 text-base text-[#8a8299] sm:text-lg">
-          相片請放於{" "}
-          <code className="rounded bg-rose-100/70 px-2 py-0.5 text-sm text-rose-900 sm:text-base">
-            public/images
-          </code>
-        </p>
+        
 
         {images.length === 0 ? (
           <p className="mt-6 rounded-lg border border-dashed border-rose-200/70 bg-[#fffafd]/80 px-4 py-6 text-center text-base text-[#8a8299] sm:text-lg">
