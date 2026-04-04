@@ -49,7 +49,7 @@ export default async function Home() {
               id="hero-heading"
               className="font-serif text-5xl font-semibold leading-[1.05] text-[#2d2640] sm:text-6xl md:text-7xl md:leading-[1.05] lg:text-[4.5rem] xl:text-[5rem]"
             >
-              為香港家庭尋找最合適的家人
+              為香港家庭尋找最合適的僱傭
             </h1>
             <p className="mx-auto mt-8 max-w-3xl text-xl leading-relaxed text-[#6b6280] sm:text-2xl md:text-[1.65rem] md:leading-snug">
               專業外佣配對與跟進，用心了解每個家庭需要，服務覆蓋全港，讓您安心迎接新生活。
