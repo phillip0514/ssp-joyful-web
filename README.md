@@ -1,50 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SSP Joyful (SSP 快樂僱傭) — Yuen Long Branch
+
+Marketing website for SSP Joyful, a domestic helper agency in Yuen Long, Hong Kong. Built with [Next.js](https://nextjs.org) and Tailwind CSS.
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Homepage content lives in `app/page.tsx`.
+- Gallery/social images are read from `public/images` (see `lib/publicMedia.ts`).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project notes
+
+- **Audience**: local employers in Yuen Long/HK looking for domestic helpers.
+- **Design DNA**: Xiaohongshu (XHS) vibrant & trustworthy style.
+- **Conversion goal**: drive users to click the floating WhatsApp button.
+- **SEO focus**: keywords like `元朗僱傭中心`, `菲傭印傭`, `SSP Joyful`.
+- Site is deployed on a custom domain, so keep internal links and metadata production-ready.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-
-"Please remember the core identity of this project:
-
-Client: SSP Joyful (SSP 快樂僱傭) - Yuen Long Branch.
-
-Target Audience: Local employers in Yuen Long/HK looking for domestic helpers.
-
-Design DNA: Xiaohongshu (XHS) vibrant & trustworthy style.
-
-Conversion Goal: Drive users to click the Floating WhatsApp Button.
-
-SEO Focus: Must include keywords like '元朗僱傭中心', '菲傭印傭', 'SSP Joyful'.
-
-Budget: We are buying a custom domain, so ensure all internal links and metadata are ready for production deployment."
+The easiest way to deploy this app is via the [Vercel Platform](https://vercel.com/new). See the [Next.js deployment docs](https://nextjs.org/docs/app/building-your-application/deploying) for details.
